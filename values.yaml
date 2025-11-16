@@ -67,7 +67,7 @@ ingress:
     - host: helm-app.gor.net
       paths:
         - path: /
-          pathType: prefix
+          pathType: Prefix
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
